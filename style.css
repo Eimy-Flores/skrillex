@@ -1,0 +1,124 @@
+/*Agregamos color al fondo de la pagina*/
+body{
+    background-color:#F2E9E4 ;
+}
+
+/*Agregar color al encabezado de mi artista favorito, agregamos un borde redondeado, centramos el texto y agregamos tipografía*/
+.Titulo{
+    ackground-color: #659AA6;
+    text-align: Center;
+    font-family:"Nunito Sans", sans-serif;
+    color:black ; 
+    
+}
+
+/*Agregamos tamaño y centramos los parrafos*/
+p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+/*Modificar tamaño de fotos */
+#foto1{
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    src: "foto1"; 
+    width:350px;
+    
+}
+
+#foto2{
+    width: 300px;
+    height: 340px ;
+    margin:10px;
+    border-style: hidden;
+}
+
+#foto3{
+    width: 250px;
+    height: 250px;
+    border-radius: 800px;
+    border-style: solid ;
+    border-color: #659AA6;
+    
+}
+
+/*Editar tamaño los h4*/
+h4{
+    background-color: #013440;
+    font-family:"Shadows Into Light", cursive;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+ }
+
+ /* Edicion de listas ordenadas y no ordenadas*/
+ ol{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    color: #013440;
+    font-style: italic;
+    
+ }
+ul{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Mukta", sans-serif;
+    color: #013440;
+    
+}
+
+/* Modificar posicion de las fotos*/
+.ruleta-foto{
+    display: flex ;
+    text-align: center;
+   
+}
+/* la clase informacion para modificar lo que contiene, creador es quien hizo la pagina, 
+instagram son las redes sociales del artista, autor es derechos de autor,  */
+.informacion{
+    background-color: #B4D2D9;
+    font-style: italic;
+    color: #013440;
+    font-size: 20px;
+    text-align: center;
+}
+
+#creador{
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+}
+.instagram{
+    text-align: center;
+}
+
+#autor{
+    text-align: center;
+
+}
+
+
+.correo{
+    text-align: center;
+    
+}
+/* agregando estilos al apartado de ingresar el correo */
+button{
+    background-color: #659AA6;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+}
+
+input{
+    background-color: #F2E9E4;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
